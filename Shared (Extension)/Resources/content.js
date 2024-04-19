@@ -327,6 +327,16 @@ function able_color(){
         let fullscreenbtn2 = fullscreenbtn.children[i].children[1];
         fullscreenbtn2.style.fill = '#fff';
     }
+
+    let ytpswatchbackground = document.getElementsByClassName('ytp-play-progress ytp-swatch-background-color');
+    for(let i = 0; i < ytpswatchbackground.length; i++){
+        ytpswatchbackground[i].style.backgroundColor = '#f00';
+    }
+
+    let ytpscrubberbackground = document.getElementsByClassName('ytp-scrubber-button ytp-swatch-background-color');
+    for(let i = 0; i < ytpscrubberbackground.length; i++){
+        ytpscrubberbackground[i].style.backgroundColor = '#f00';
+    }
 }
 
 function disable_btn(){
@@ -366,6 +376,16 @@ function disable_btn(){
     let ytpsettingbtn = document.getElementsByClassName('ytp-settings-button');
     for(let i = 0; i < ytpsettingbtn.length; i++){
         ytpsettingbtn[i].style.pointerEvents = "auto";
+    }
+    
+    let ytpswatchbackground = document.getElementsByClassName('ytp-play-progress ytp-swatch-background-color');
+    for(let i = 0; i < ytpswatchbackground.length; i++){
+        ytpswatchbackground[i].style.backgroundColor = '#ff000063';
+    }
+
+    let ytpscrubberbackground = document.getElementsByClassName('ytp-scrubber-button ytp-swatch-background-color');
+    for(let i = 0; i < ytpscrubberbackground.length; i++){
+        ytpscrubberbackground[i].style.backgroundColor = '#ef7e7ed1';
     }
 }
 
