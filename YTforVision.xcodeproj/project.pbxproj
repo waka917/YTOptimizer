@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B930EBC2BD7E284001D31F5 /* kofi_button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B930EBB2BD7E284001D31F5 /* kofi_button2.png */; };
+		1B930EBD2BD7E284001D31F5 /* kofi_button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B930EBB2BD7E284001D31F5 /* kofi_button2.png */; };
 		1BA80DE92BD29045005E4F1F /* kofi_button1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BA80DE82BD29045005E4F1F /* kofi_button1.png */; };
 		1BA80DEA2BD29045005E4F1F /* kofi_button1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BA80DE82BD29045005E4F1F /* kofi_button1.png */; };
 		1BAD5C582BD0258700EE69B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAD5C572BD0258700EE69B5 /* AppDelegate.swift */; };
@@ -94,6 +96,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B930EBB2BD7E284001D31F5 /* kofi_button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kofi_button2.png; sourceTree = "<group>"; };
 		1BA80DE82BD29045005E4F1F /* kofi_button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kofi_button1.png; sourceTree = "<group>"; };
 		1BAD5C3F2BD0258600EE69B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		1BAD5C402BD0258600EE69B5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -190,6 +193,7 @@
 				1BAD5C402BD0258600EE69B5 /* Icon.png */,
 				1BAD5CBC2BD02C0500EE69B5 /* Icon2.png */,
 				1BA80DE82BD29045005E4F1F /* kofi_button1.png */,
+				1B930EBB2BD7E284001D31F5 /* kofi_button2.png */,
 				1BAD5C412BD0258600EE69B5 /* Style.css */,
 				1BAD5C422BD0258600EE69B5 /* Script.js */,
 			);
@@ -402,6 +406,7 @@
 				1BAD5C892BD0258700EE69B5 /* Script.js in Resources */,
 				1BAD5C8D2BD0258700EE69B5 /* Assets.xcassets in Resources */,
 				1BAD5C602BD0258700EE69B5 /* Base in Resources */,
+				1B930EBC2BD7E284001D31F5 /* kofi_button2.png in Resources */,
 				1BAD5C872BD0258700EE69B5 /* Style.css in Resources */,
 				1BAD5CBD2BD02C0500EE69B5 /* Icon2.png in Resources */,
 			);
@@ -416,6 +421,7 @@
 				1BAD5C882BD0258700EE69B5 /* Style.css in Resources */,
 				1BAD5C6C2BD0258700EE69B5 /* Base in Resources */,
 				1BA80DEA2BD29045005E4F1F /* kofi_button1.png in Resources */,
+				1B930EBD2BD7E284001D31F5 /* kofi_button2.png in Resources */,
 				1BAD5C8A2BD0258700EE69B5 /* Script.js in Resources */,
 				1BAD5C8E2BD0258700EE69B5 /* Assets.xcassets in Resources */,
 				1BAD5C842BD0258700EE69B5 /* Base in Resources */,
@@ -741,7 +747,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4;
+				MARKETING_VERSION = 1.6;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -782,7 +788,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4;
+				MARKETING_VERSION = 1.6;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
