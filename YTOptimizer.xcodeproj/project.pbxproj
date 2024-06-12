@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B49AC2E2BEA44480013CA29 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 1B49AC2D2BEA44480013CA29 /* RealityKitContent */; };
+		1B49AC302BEA44480013CA29 /* YTOptimizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49AC2F2BEA44480013CA29 /* YTOptimizerApp.swift */; };
+		1B49AC322BEA44480013CA29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49AC312BEA44480013CA29 /* ContentView.swift */; };
+		1B49AC342BEA44490013CA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B49AC332BEA44490013CA29 /* Assets.xcassets */; };
+		1B49AC372BEA44490013CA29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B49AC362BEA44490013CA29 /* Preview Assets.xcassets */; };
+		1B49AC422BEA44490013CA29 /* YTOptimizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49AC412BEA44490013CA29 /* YTOptimizerTests.swift */; };
+		1B49AC522BEA44C70013CA29 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49AC512BEA44C70013CA29 /* SafariWebExtensionHandler.swift */; };
+		1B49AC552BEA44C70013CA29 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 1B49AC542BEA44C70013CA29 /* _locales */; };
+		1B49AC572BEA44C70013CA29 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1B49AC562BEA44C70013CA29 /* images */; };
+		1B49AC592BEA44C70013CA29 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B49AC582BEA44C70013CA29 /* manifest.json */; };
+		1B49AC5B2BEA44C70013CA29 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B49AC5A2BEA44C70013CA29 /* background.js */; };
+		1B49AC5D2BEA44C70013CA29 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B49AC5C2BEA44C70013CA29 /* content.js */; };
+		1B49AC5F2BEA44C70013CA29 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 1B49AC5E2BEA44C70013CA29 /* popup.html */; };
+		1B49AC612BEA44C70013CA29 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B49AC602BEA44C70013CA29 /* popup.css */; };
+		1B49AC632BEA44C70013CA29 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B49AC622BEA44C70013CA29 /* popup.js */; };
+		1B49AC672BEA44C70013CA29 /* YTOptimizer Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1B49AC4F2BEA44C60013CA29 /* YTOptimizer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B49AC3E2BEA44490013CA29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B49AC202BEA44480013CA29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B49AC272BEA44480013CA29;
+			remoteInfo = YTOptimizer;
+		};
+		1B49AC652BEA44C70013CA29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B49AC202BEA44480013CA29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B49AC4E2BEA44C60013CA29;
+			remoteInfo = "YTOptimizer Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B49AC6B2BEA44C70013CA29 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1B49AC672BEA44C70013CA29 /* YTOptimizer Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B49AC282BEA44480013CA29 /* YTOptimizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTOptimizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B49AC2C2BEA44480013CA29 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		1B49AC2F2BEA44480013CA29 /* YTOptimizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTOptimizerApp.swift; sourceTree = "<group>"; };
+		1B49AC312BEA44480013CA29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B49AC332BEA44490013CA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B49AC362BEA44490013CA29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B49AC382BEA44490013CA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B49AC3D2BEA44490013CA29 /* YTOptimizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTOptimizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B49AC412BEA44490013CA29 /* YTOptimizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTOptimizerTests.swift; sourceTree = "<group>"; };
+		1B49AC4F2BEA44C60013CA29 /* YTOptimizer Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YTOptimizer Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B49AC512BEA44C70013CA29 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		1B49AC542BEA44C70013CA29 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		1B49AC562BEA44C70013CA29 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		1B49AC582BEA44C70013CA29 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		1B49AC5A2BEA44C70013CA29 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		1B49AC5C2BEA44C70013CA29 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		1B49AC5E2BEA44C70013CA29 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		1B49AC602BEA44C70013CA29 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		1B49AC622BEA44C70013CA29 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		1B49AC642BEA44C70013CA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B49AC252BEA44480013CA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B49AC2E2BEA44480013CA29 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B49AC3A2BEA44490013CA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B49AC4C2BEA44C60013CA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B49AC1F2BEA44480013CA29 = {
+			isa = PBXGroup;
+			children = (
+				1B49AC2A2BEA44480013CA29 /* YTOptimizer */,
+				1B49AC2B2BEA44480013CA29 /* Packages */,
+				1B49AC402BEA44490013CA29 /* YTOptimizerTests */,
+				1B49AC502BEA44C70013CA29 /* YTOptimizer Extension */,
+				1B49AC292BEA44480013CA29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B49AC292BEA44480013CA29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B49AC282BEA44480013CA29 /* YTOptimizer.app */,
+				1B49AC3D2BEA44490013CA29 /* YTOptimizerTests.xctest */,
+				1B49AC4F2BEA44C60013CA29 /* YTOptimizer Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B49AC2A2BEA44480013CA29 /* YTOptimizer */ = {
+			isa = PBXGroup;
+			children = (
+				1B49AC2F2BEA44480013CA29 /* YTOptimizerApp.swift */,
+				1B49AC312BEA44480013CA29 /* ContentView.swift */,
+				1B49AC332BEA44490013CA29 /* Assets.xcassets */,
+				1B49AC382BEA44490013CA29 /* Info.plist */,
+				1B49AC352BEA44490013CA29 /* Preview Content */,
+			);
+			path = YTOptimizer;
+			sourceTree = "<group>";
+		};
+		1B49AC2B2BEA44480013CA29 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1B49AC2C2BEA44480013CA29 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		1B49AC352BEA44490013CA29 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B49AC362BEA44490013CA29 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B49AC402BEA44490013CA29 /* YTOptimizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B49AC412BEA44490013CA29 /* YTOptimizerTests.swift */,
+			);
+			path = YTOptimizerTests;
+			sourceTree = "<group>";
+		};
+		1B49AC502BEA44C70013CA29 /* YTOptimizer Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1B49AC512BEA44C70013CA29 /* SafariWebExtensionHandler.swift */,
+				1B49AC642BEA44C70013CA29 /* Info.plist */,
+				1B49AC532BEA44C70013CA29 /* Resources */,
+			);
+			path = "YTOptimizer Extension";
+			sourceTree = "<group>";
+		};
+		1B49AC532BEA44C70013CA29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B49AC542BEA44C70013CA29 /* _locales */,
+				1B49AC562BEA44C70013CA29 /* images */,
+				1B49AC582BEA44C70013CA29 /* manifest.json */,
+				1B49AC5A2BEA44C70013CA29 /* background.js */,
+				1B49AC5C2BEA44C70013CA29 /* content.js */,
+				1B49AC5E2BEA44C70013CA29 /* popup.html */,
+				1B49AC602BEA44C70013CA29 /* popup.css */,
+				1B49AC622BEA44C70013CA29 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B49AC272BEA44480013CA29 /* YTOptimizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B49AC452BEA44490013CA29 /* Build configuration list for PBXNativeTarget "YTOptimizer" */;
+			buildPhases = (
+				1B49AC242BEA44480013CA29 /* Sources */,
+				1B49AC252BEA44480013CA29 /* Frameworks */,
+				1B49AC262BEA44480013CA29 /* Resources */,
+				1B49AC6B2BEA44C70013CA29 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B49AC662BEA44C70013CA29 /* PBXTargetDependency */,
+			);
+			name = YTOptimizer;
+			packageProductDependencies = (
+				1B49AC2D2BEA44480013CA29 /* RealityKitContent */,
+			);
+			productName = YTOptimizer;
+			productReference = 1B49AC282BEA44480013CA29 /* YTOptimizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B49AC3C2BEA44490013CA29 /* YTOptimizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B49AC482BEA44490013CA29 /* Build configuration list for PBXNativeTarget "YTOptimizerTests" */;
+			buildPhases = (
+				1B49AC392BEA44490013CA29 /* Sources */,
+				1B49AC3A2BEA44490013CA29 /* Frameworks */,
+				1B49AC3B2BEA44490013CA29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B49AC3F2BEA44490013CA29 /* PBXTargetDependency */,
+			);
+			name = YTOptimizerTests;
+			productName = YTOptimizerTests;
+			productReference = 1B49AC3D2BEA44490013CA29 /* YTOptimizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B49AC4E2BEA44C60013CA29 /* YTOptimizer Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B49AC682BEA44C70013CA29 /* Build configuration list for PBXNativeTarget "YTOptimizer Extension" */;
+			buildPhases = (
+				1B49AC4B2BEA44C60013CA29 /* Sources */,
+				1B49AC4C2BEA44C60013CA29 /* Frameworks */,
+				1B49AC4D2BEA44C60013CA29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YTOptimizer Extension";
+			productName = "YTOptimizer Extension";
+			productReference = 1B49AC4F2BEA44C60013CA29 /* YTOptimizer Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B49AC202BEA44480013CA29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1B49AC272BEA44480013CA29 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					1B49AC3C2BEA44490013CA29 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1B49AC272BEA44480013CA29;
+					};
+					1B49AC4E2BEA44C60013CA29 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 1B49AC232BEA44480013CA29 /* Build configuration list for PBXProject "YTOptimizer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B49AC1F2BEA44480013CA29;
+			productRefGroup = 1B49AC292BEA44480013CA29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B49AC272BEA44480013CA29 /* YTOptimizer */,
+				1B49AC3C2BEA44490013CA29 /* YTOptimizerTests */,
+				1B49AC4E2BEA44C60013CA29 /* YTOptimizer Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B49AC262BEA44480013CA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B49AC372BEA44490013CA29 /* Preview Assets.xcassets in Resources */,
+				1B49AC342BEA44490013CA29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B49AC3B2BEA44490013CA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B49AC4D2BEA44C60013CA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B49AC5B2BEA44C70013CA29 /* background.js in Resources */,
+				1B49AC612BEA44C70013CA29 /* popup.css in Resources */,
+				1B49AC5F2BEA44C70013CA29 /* popup.html in Resources */,
+				1B49AC572BEA44C70013CA29 /* images in Resources */,
+				1B49AC592BEA44C70013CA29 /* manifest.json in Resources */,
+				1B49AC552BEA44C70013CA29 /* _locales in Resources */,
+				1B49AC5D2BEA44C70013CA29 /* content.js in Resources */,
+				1B49AC632BEA44C70013CA29 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B49AC242BEA44480013CA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B49AC322BEA44480013CA29 /* ContentView.swift in Sources */,
+				1B49AC302BEA44480013CA29 /* YTOptimizerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B49AC392BEA44490013CA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B49AC422BEA44490013CA29 /* YTOptimizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B49AC4B2BEA44C60013CA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B49AC522BEA44C70013CA29 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B49AC3F2BEA44490013CA29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B49AC272BEA44480013CA29 /* YTOptimizer */;
+			targetProxy = 1B49AC3E2BEA44490013CA29 /* PBXContainerItemProxy */;
+		};
+		1B49AC662BEA44C70013CA29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B49AC4E2BEA44C60013CA29 /* YTOptimizer Extension */;
+			targetProxy = 1B49AC652BEA44C70013CA29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B49AC432BEA44490013CA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		1B49AC442BEA44490013CA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		1B49AC462BEA44490013CA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YTOptimizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 5PR7WC9NT3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YT Optimizer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = waka.YTforVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		1B49AC472BEA44490013CA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YTOptimizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 5PR7WC9NT3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YT Optimizer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = waka.YTforVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		1B49AC492BEA44490013CA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PR7WC9NT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = waka.YTforVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTOptimizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YTOptimizer";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		1B49AC4A2BEA44490013CA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PR7WC9NT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = waka.YTforVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTOptimizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YTOptimizer";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		1B49AC692BEA44C70013CA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PR7WC9NT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YTOptimizer Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YTOptimizer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = waka.YTforVision.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		1B49AC6A2BEA44C70013CA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PR7WC9NT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YTOptimizer Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YTOptimizer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = waka.YTforVision.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B49AC232BEA44480013CA29 /* Build configuration list for PBXProject "YTOptimizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B49AC432BEA44490013CA29 /* Debug */,
+				1B49AC442BEA44490013CA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B49AC452BEA44490013CA29 /* Build configuration list for PBXNativeTarget "YTOptimizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B49AC462BEA44490013CA29 /* Debug */,
+				1B49AC472BEA44490013CA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B49AC482BEA44490013CA29 /* Build configuration list for PBXNativeTarget "YTOptimizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B49AC492BEA44490013CA29 /* Debug */,
+				1B49AC4A2BEA44490013CA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B49AC682BEA44C70013CA29 /* Build configuration list for PBXNativeTarget "YTOptimizer Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B49AC692BEA44C70013CA29 /* Debug */,
+				1B49AC6A2BEA44C70013CA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1B49AC2D2BEA44480013CA29 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1B49AC202BEA44480013CA29 /* Project object */;
+}
