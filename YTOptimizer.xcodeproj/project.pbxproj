@@ -23,6 +23,7 @@
 		1B49AC612BEA44C70013CA29 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B49AC602BEA44C70013CA29 /* popup.css */; };
 		1B49AC632BEA44C70013CA29 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B49AC622BEA44C70013CA29 /* popup.js */; };
 		1B49AC672BEA44C70013CA29 /* YTOptimizer Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1B49AC4F2BEA44C60013CA29 /* YTOptimizer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3E4791D92C1EC8CC006BE479 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3E4791D82C1EC8CC006BE479 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		1B49AC602BEA44C70013CA29 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		1B49AC622BEA44C70013CA29 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		1B49AC642BEA44C70013CA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4791D82C1EC8CC006BE479 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		1B49AC1F2BEA44480013CA29 = {
 			isa = PBXGroup;
 			children = (
+				3E4791D82C1EC8CC006BE479 /* Localizable.xcstrings */,
 				1B49AC2A2BEA44480013CA29 /* YTOptimizer */,
 				1B49AC2B2BEA44480013CA29 /* Packages */,
 				1B49AC402BEA44490013CA29 /* YTOptimizerTests */,
@@ -276,6 +279,11 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				"en-GB",
+				"en-AU",
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 1B49AC1F2BEA44480013CA29;
 			productRefGroup = 1B49AC292BEA44480013CA29 /* Products */;
@@ -296,6 +304,7 @@
 			files = (
 				1B49AC372BEA44490013CA29 /* Preview Assets.xcassets in Resources */,
 				1B49AC342BEA44490013CA29 /* Assets.xcassets in Resources */,
+				3E4791D92C1EC8CC006BE479 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +512,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0;
+				MARKETING_VERSION = 3.3;
 				PRODUCT_BUNDLE_IDENTIFIER = waka.YTforVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
@@ -532,7 +541,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0;
+				MARKETING_VERSION = 3.3;
 				PRODUCT_BUNDLE_IDENTIFIER = waka.YTforVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";

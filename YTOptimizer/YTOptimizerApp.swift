@@ -13,10 +13,10 @@ struct YTOptimizerApp: App {
         WindowGroup {
             ContentView()
                 .frame(
-                    minWidth: 640, maxWidth: 640,
+                    minWidth: 750, maxWidth: 750,
                     minHeight: 425, maxHeight: 425)
         }
         .windowResizability(.contentSize)
-        .defaultSize(CGSize(width: 640, height: 425))
+        .defaultSize(CGSize(width: 750, height: 425))
     }
 }

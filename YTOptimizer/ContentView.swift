@@ -16,7 +16,7 @@ struct ContentView: View {
                 .resizable()    // 画像サイズをフレームサイズに合わせる
                 .frame(width: 150, height: 150) // フレームサイズの指定
             
-            Text("･ Turn on the YT Optimizer Safari extension from Settings.\n･ Please use desktop mode in safari.\n･ Please go to “Safari > Manage Extensions” to set which buttons to disable")
+            Text("- Please turn on the extension from “Settings > Apps > Safari > Extensions“.\n- Please use desktop mode in Safari.\n- Select “Manage Extensions“ from the Safari menu to customize the tap disable function.")
                 .multilineTextAlignment(.leading)
         }
         .padding()

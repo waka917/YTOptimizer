@@ -1,0 +1,40 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "- Please turn on the extension from “Settings > Apps > Safari > Extensions“.\n- Please use desktop mode in Safari.\n- Select “Manage Extensions“ from the Safari menu to customize the tap disable function." : {
+      "localizations" : {
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- Please turn on the extension from “Settings > Apps > Safari > Extensions“.\n- Please use desktop mode in Safari.\n- Select “Manage Extensions“ from the Safari menu to customize the tap disable function."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- Please turn on the extension from “Settings > Apps > Safari > Extensions“.\n- Please use desktop mode in Safari.\n- Select “Manage Extensions“ from the Safari menu to customize the tap disable function."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- \"設定 > アプリ > Safari > 機能拡張\"の順に選択し、拡張機能をオンにしてください。\n- Safariのデスクトップモードにして利用してください。\n- Safariのメニューから\"拡張機能を管理\"を選択し、タップ無効化機能をカスタマイズしてください。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- 请从“设置 > 应用程序 > Safari > 扩展功能”中开启扩展。\n- 在桌面模式下使用 Safari。\n- 从 Safari 菜单中选择 \"管理扩展\"，自定义轻触禁用功能。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- 請從「設定 > 應用程式 > Safari > 擴充功能」中開啟擴充功能。\n- 在桌面模式下使用 Safari。\n- 從 Safari 選單中選擇 \"管理擴充\"，自訂輕觸停用功能。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

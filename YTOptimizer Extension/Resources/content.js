@@ -96,13 +96,11 @@ if (userAgent.includes("macintosh")) {
 
 function main2(){
     var title = document.title;
-    console.log(title);
 
     // "YouTube"または"(数字) YouTube"に対応する正規表現
     const pattern = /^(?:\(\d+\)\s)?YouTube$/;
 
     if (!pattern.test(title)){
-        console.log("debug00-1");
         main();
     }
 
@@ -149,12 +147,8 @@ function main(){
 
     // 画面ロック機能
     let miniPlayerButton = document.querySelectorAll('.ytp-miniplayer-button');
-    console.log(miniPlayerButton);
-    console.log("debug01");
     for(let i = 0; i < miniPlayerButton.length; i++){
-        console.log("debug02");
 
-        console.log("debug03");
         let disablebtn = miniPlayerButton[i].cloneNode(true);
         let subtitlesbutton = document.querySelector('.ytp-subtitles-button');
         miniPlayerButton[i].remove();
@@ -166,11 +160,9 @@ function main(){
         disablebtn.setAttribute('data-title-no-tooltip', '操作無効');
         disablebtn.setAttribute('aria-label', '操作無効（i）');
 
-        console.log("debug04");
         let fullscreenbtn =  document.querySelector('.ytp-fullscreen-button');
         fullscreenbtn.addEventListener('click', setcenter, false);
 
-        console.log("debug05");
         //disablebtn.children.remove();
         for(let i = 0; i < disablebtn.children.length; i++){
             disablebtn.children[i].remove();
@@ -178,7 +170,6 @@ function main(){
 
         //let subtitlesbutton2 = document.querySelector('.ytp-subtitles-button');
 
-        console.log("debug06");
         // HTMLコードを定義します
         let htmlCode = '<svg height="100%" width="100%" version="1.1" viewBox="0 0 36 36"><use class="ytp-svg-shadow" xlink:href="#ytp-id-12345"></use><path height="79%" width="79%" d="M11.9548 27H24.6833C25.2096 27 25.638 26.5716 25.638 26.0452V15.2262C25.638 14.6999 25.2096 14.2738 24.6833 14.2738H23.7285L22.7738 13.3869C22.7738 13.3869 22.1919 11.2369 21.819 10.5C22.5647 10.5 23.7285 10.5 23.7285 10.5V8.40951C23.7285 5.42676 21.3018 3 18.319 3C15.3363 3 12.9095 5.42676 12.9095 8.40951V14.2738H11.9548C11.4284 14.2738 11 14.6999 11 15.2262V26.0452C11 26.5716 11.4284 27 11.9548 27ZM19.2738 20.9548V22.2262C19.2738 22.7549 18.8454 23.181 18.319 23.181C17.7926 23.181 17.3643 22.7549 17.3643 22.2262V20.9548C16.9792 20.6631 16.7285 20.2005 16.7285 19.681C16.7285 18.8037 17.4417 18.0905 18.319 18.0905C19.1963 18.0905 19.9095 18.8037 19.9095 19.681C19.9095 20.2005 19.6589 20.6631 19.2738 20.9548ZM14.819 8.40951C14.819 6.47949 16.389 4.90951 18.319 4.90951C20.249 4.90951 21.819 6.47949 21.819 8.40951C21.819 8.40951 21.819 9.29309 21.819 10.5C22.1919 11.2369 22.7738 13.3869 22.7738 13.3869L23.7285 14.2738H21.819H14.819V8.40951Z" fill="#fff" id="ytp-id-12345"></path></svg>';
 
@@ -193,7 +184,6 @@ function main(){
         // HTMLコードを親要素に追加します
         disablebtn.innerHTML += htmlCode;
 
-        console.log("debug07");
 
         let ytpchromecontrols = document.getElementsByClassName('ytp-chrome-controls');
 
@@ -267,7 +257,7 @@ function main(){
             //ytptimedisplay[i].style.width = ytptimedisplay[i].offsetWidth * 1.4 + "px";
             //ytptimedisplay[i].style.height = ytptimedisplay[i].offsetHeight * 1.4 + "px";
             ytptimedisplay[i].style.fontSize = 110 + "%";
-            ytptimedisplay[i].style.lineHeight = ytpmutebtn[i].offsetHeight + "px";
+            ytptimedisplay[i].style.lineHeight = ytpmutebtn[0].offsetHeight + "px";
         }
 
         //ガイドボタンサイズ変更
@@ -300,12 +290,18 @@ function main(){
         //disablesvg();
 
         set_gradient();
+
+        let subtitlesbtn = document.getElementsByClassName('ytp-subtitles-button-icon');
+        for(let i = 0; i < subtitlesbtn.length; i++){
+            //subtitlesbtn[i].classList.add('ytp-autonav-toggle-button-container');
+            //subtitlesbtn[i].classList.add('ytp-autonav-toggle-button');
+            
+        }
     }
 }
 
 //再生ボタンをバー中央に移動
 function setcenter(){
-    console.log("debug1");
     let ytpplaybtn = document.getElementsByClassName('ytp-play-button');
     for(let i = 0; i < ytpplaybtn.length; i++){
         var chromectrl = document.getElementsByClassName('ytp-chrome-controls');
@@ -419,6 +415,8 @@ function change_disable2(){
     for(let i = 0; i < ytpbtn.length; i++){
         ytpbtn[i].style.pointerEvents = "none";
     }
+
+    //mouse_false();
 
     if(btn_json.next_btn){
         let ytpnextbtn = document.getElementsByClassName('ytp-next-button ytp-button');
@@ -643,6 +641,8 @@ function disable_btn(){
 }
 
 function able_btn(){
+    //mouse_true();
+
     let progressbarcontainer = document.getElementsByClassName('ytp-progress-bar-container');
     for(let i = 0; i < progressbarcontainer.length; i++){
         progressbarcontainer[i].style.pointerEvents = "auto";
@@ -670,8 +670,38 @@ function set_gradient(){
     
 }
 
+//マウス操作無効
+function mouse_false(){
+    let videocontainer = document.querySelectorAll('#full-bleed-container.style-scope.ytd-watch-flexy');
+    console.log(videocontainer);
+    for(let i = 0; i < videocontainer.length; i++){
+        videocontainer[i].style.pointerEvents = "none";
+    }
 
+    //デスクトップ表示時にタブルクリックで全画面表示
+    let chromebottom2 = document.querySelectorAll('.ytp-caption-window-container');
+    console.log(chromebottom2);
+    for(let i = 0; i < chromebottom2.length; i++){
+       //chromebottom2[i].style.pointerEvents = "auto";
+    }
 
+    let chromebottom = document.querySelectorAll('.ytp-chrome-bottom');
+    console.log(chromebottom);
+    for(let i = 0; i < chromebottom.length; i++){
+       chromebottom[i].style.pointerEvents = "auto";
+    }
+
+    
+}
+
+//マウス操作有効
+function mouse_true(){
+    let videocontainer = document.querySelectorAll('#full-bleed-container.style-scope.ytd-watch-flexy');
+    console.log(videocontainer);
+    for(let i = 0; i < videocontainer.length; i++){
+        videocontainer[i].style.pointerEvents = "auto";
+    }
+}
 
 
 // 送信側 contents -> background
