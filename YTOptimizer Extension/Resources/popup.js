@@ -173,6 +173,11 @@ function log() {
     return;
 }
 
+//デバッグ
+function debug01() {
+    chrome.storage.local.clear();
+}
+
 document.getElementById('tgl_next').addEventListener('click', next_btn);
 document.getElementById('tgl_mute').addEventListener('click', mute_btn);
 document.getElementById('tgl_play').addEventListener('click', play_btn);
@@ -181,6 +186,7 @@ document.getElementById('tgl_settings').addEventListener('click', settings_btn);
 document.getElementById('tgl_size').addEventListener('click', size_btn);
 document.getElementById('tgl_remote').addEventListener('click', remote_btn);
 document.getElementById('tgl_fullscreen').addEventListener('click', fullscreen_btn);
+document.getElementById('tgl_debug01').addEventListener('click', debug01);
 
 
 //document.getElementById('log').addEventListener('click', log);
@@ -222,42 +228,42 @@ function abc(){
 
 //トグル状態を設定内容に同期する
 function tgl_sync(){
-    if(!btn_json.next_btn){
+    if(btn_json.next_btn){
         btn_json.next_btn = !btn_json.next_btn
         document.getElementById('tgl_next').click();
     }
 
-    if(!btn_json.mute_btn){
+    if(btn_json.mute_btn){
         btn_json.mute_btn = !btn_json.mute_btn;
         document.getElementById('tgl_mute').click();
     }
 
-    if(!btn_json.play_btn){
+    if(btn_json.play_btn){
         btn_json.play_btn = !btn_json.play_btn;
         document.getElementById('tgl_play').click();
     }
 
-    if(!btn_json.subtitles_btn){
+    if(btn_json.subtitles_btn){
         btn_json.subtitles_btn = !btn_json.subtitles_btn;
         document.getElementById('tgl_subtitles').click();
     }
 
-    if(!btn_json.settings_btn){
+    if(btn_json.settings_btn){
         btn_json.settings_btn = !btn_json.settings_btn;
         document.getElementById('tgl_settings').click();
     }
 
-    if(!btn_json.size_btn){
+    if(btn_json.size_btn){
         btn_json.size_btn = !btn_json.size_btn;
         document.getElementById('tgl_size').click();
     }
 
-    if(!btn_json.remote_btn){
+    if(btn_json.remote_btn){
         btn_json.remote_btn = !btn_json.remote_btn;
         document.getElementById('tgl_remote').click();
     }
 
-    if(!btn_json.fullscreen_btn){
+    if(btn_json.fullscreen_btn){
         btn_json.fullscreen_btn = !btn_json.fullscreen_btn;
         document.getElementById('tgl_fullscreen').click();
     }

@@ -111,10 +111,10 @@ function main2(){
 
 var btn_json = {
     "next_btn": false,
-    "mute_btn": true,
+    "mute_btn": false,
     "play_btn": true,
     "subtitles_btn": false,
-    "settings_btn": true,
+    "settings_btn": false,
     "size_btn": false,
     "remote_btn": false,
     "fullscreen_btn": false

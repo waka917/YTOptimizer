@@ -79,6 +79,8 @@
 		1B49AC622BEA44C70013CA29 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		1B49AC642BEA44C70013CA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E4791D82C1EC8CC006BE479 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		3EFDF0382C21C43A005FD132 /* YTOptimizer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YTOptimizer.entitlements; sourceTree = "<group>"; };
+		3EFDF0392C21C80F005FD132 /* YTOptimizer Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "YTOptimizer Extension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		1B49AC2A2BEA44480013CA29 /* YTOptimizer */ = {
 			isa = PBXGroup;
 			children = (
+				3EFDF0382C21C43A005FD132 /* YTOptimizer.entitlements */,
 				1B49AC2F2BEA44480013CA29 /* YTOptimizerApp.swift */,
 				1B49AC312BEA44480013CA29 /* ContentView.swift */,
 				1B49AC332BEA44490013CA29 /* Assets.xcassets */,
@@ -168,6 +171,7 @@
 		1B49AC502BEA44C70013CA29 /* YTOptimizer Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3EFDF0392C21C80F005FD132 /* YTOptimizer Extension.entitlements */,
 				1B49AC512BEA44C70013CA29 /* SafariWebExtensionHandler.swift */,
 				1B49AC642BEA44C70013CA29 /* Info.plist */,
 				1B49AC532BEA44C70013CA29 /* Resources */,
@@ -499,6 +503,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YTOptimizer/YTOptimizer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YTOptimizer/Preview Content\"";
@@ -512,7 +517,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.3;
+				MARKETING_VERSION = 3.4;
 				PRODUCT_BUNDLE_IDENTIFIER = waka.YTforVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
@@ -528,6 +533,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YTOptimizer/YTOptimizer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YTOptimizer/Preview Content\"";
@@ -541,7 +547,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.3;
+				MARKETING_VERSION = 3.4;
 				PRODUCT_BUNDLE_IDENTIFIER = waka.YTforVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
@@ -596,6 +602,7 @@
 		1B49AC692BEA44C70013CA29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "YTOptimizer Extension/YTOptimizer Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5PR7WC9NT3;
@@ -626,6 +633,7 @@
 		1B49AC6A2BEA44C70013CA29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "YTOptimizer Extension/YTOptimizer Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5PR7WC9NT3;
