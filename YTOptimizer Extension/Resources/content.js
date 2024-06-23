@@ -109,6 +109,24 @@ function main2(){
     //}
 }
 
+
+function delete_btn(){
+    let ytpplay_btn = document.querySelectorAll('.ytp-play-button.ytp-button');
+    for(let i = 0; i < ytpplay_btn.length; i++){
+        console.log(ytpplay_btn[i]);
+        
+        var style = window.getComputedStyle(ytpplay_btn[i]);
+        var marginR = style.getPropertyValue('margin-right');
+        console.log(marginR);
+        if(maringR = "5px"){
+            console.log("Debug01")
+        }else{
+            console.log("Debug02")
+            ytpplay_btn[i].remove();
+        }
+    }
+}
+
 var btn_json = {
     "next_btn": false,
     "mute_btn": false,
@@ -298,6 +316,8 @@ function main(){
             
         }
     }
+    
+    delete_btn();
 }
 
 //再生ボタンをバー中央に移動

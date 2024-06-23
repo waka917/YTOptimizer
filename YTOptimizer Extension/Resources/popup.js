@@ -186,7 +186,7 @@ document.getElementById('tgl_settings').addEventListener('click', settings_btn);
 document.getElementById('tgl_size').addEventListener('click', size_btn);
 document.getElementById('tgl_remote').addEventListener('click', remote_btn);
 document.getElementById('tgl_fullscreen').addEventListener('click', fullscreen_btn);
-document.getElementById('tgl_debug01').addEventListener('click', debug01);
+//document.getElementById('tgl_debug01').addEventListener('click', debug01);
 
 
 //document.getElementById('log').addEventListener('click', log);
