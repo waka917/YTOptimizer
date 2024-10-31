@@ -21,7 +21,7 @@ struct ContentView: View {
                 .resizable()    // 画像サイズをフレームサイズに合わせる
                 .frame(width: 150, height: 150) // フレームサイズの指定
             
-            Text("- Please turn on the extension from “Settings > Apps > Safari > Extensions“.\n- Please use desktop mode in Safari.\n- Select “Manage Extensions“ from the Safari menu to customize the tap disable function.")
+            Text("description")
                 .multilineTextAlignment(.leading)
         }
         .padding()
